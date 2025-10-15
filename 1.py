@@ -401,4 +401,5 @@ plt.show()
 final_train_loss = train_losses[-1]
 final_test_loss = test_losses[-1]
 print(f'\nФинальные потери на обучении (MSE): {final_train_loss:.6f}')
+
 print(f'Финальные потери на тесте (MSE): {final_test_loss:.6f}')
